@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    border: none;
+}
+.section-yellow {
+    background-color: #FFB742;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.contatiner{
+    border: none;
+}
+.custom-image {
+    height: 60%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.icons-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+.icons {
+    display: flex;
+    align-items: center;
+}
+.icon {
+    margin: 0 10px;
+    display: inline-block;
+}
+.scroll-down {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 50px;
+    margin-right: 80%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.section-white {
+    background-color: white;
+    color: black;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.navbar {
+    background-color: #FFB742;
+    padding: 10px 20px;
+    width: 100%;
+}
+.navbar-brand img {
+    height: 80%;
+    width: 80%;
+}
+.spotlight-section {
+    padding: 50px 0;
+    display: grid;
+}
+.spotlight-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.spotlight-subtitle {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.email-section{
+    background-color: #333;
+    position: relative;
+    color: white;
+    font-size: large;
+    height: 70vh;
+    width: auto;
+    align-items: center;
+    text-align: center; 
+    padding: 50px 0;
+}
+.email-section h2 {
+    margin-top: 100px;
+    align-items: center;
+
+    font-size: 50px;
+    font-weight: bold;
+}
+.email-section p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+.email-input {
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #333;
+
+}
+.send-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+.tools-section {
+    background-color: white;
+    color: black;
+    padding: 50px 0;
+}
+.tools-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.tools-subtitle {
+    font-size: 16px;
+    color: black;
+    font-weight:bold;
+
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+.under-text{
+    width: 100%;
+    color: white;
+    background-color: black;
+    width: fit-content;
+    margin-right: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    display: flex;
+    margin-left: px;
+    font-size: 25px;
+    
+}
+
+.under-text-l{
+    width: 100%;
+    display: flex;
+    justify-items: auto;
+    
+}
+.card{
+    border: none;
+
+}
+.card-title{
+
+    font: bold;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.card-text{
+    color: black;
+    margin-left: 10px;
+}
+
+.card-body{
+    padding-left: 0px ;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 2px;
+    
+
+}
+
+.view-all{
+    position: relative;
+    
+    
+}
+
+.footer {
+    background-color: #fbb03b;
+    padding: 20px;
+    position: relative;
+    height: 100%;
+}
+.footer .links {
+    text-align: left;
+}
+.footer .links a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.footer .times {
+    text-align: right;
+}
+.footer .times span {
+    display: block;
+    color: #000;
+}
+.footer .bottom-links {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.footer .bottom-links a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer .bottom-links a:hover {
+    text-decoration: underline;
+}
+.footer .back-to-top {
+    text-align: right;
+    margin-top: 10px;
+}
+.footer .back-to-top a {
+    color: #000;
+    text-decoration: none;
+}
+.footer .back-to-top a:hover {
+    text-decoration: underline;
+}
+
+.row{
+    font-weight: bold;
+    width: 100%;
+}
+.card-body1{
+    float: left;
+    
+}
+
+.card-body1 p{
+    font-size: large;
+    padding-left: 30px;
+
+}
+
+.scroll-down-icon {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    align-items: center;
+}
